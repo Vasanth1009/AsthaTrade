@@ -1,0 +1,51 @@
+.join-astha-trade {
+  padding: 120px 200px;
+}
+
+.join-astha-trade-body {
+  background: url('../../assets/images/JoinAsthaTradeBG.svg');
+  background-color: rgba(0, 167, 255, 0.1);
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+}
+
+.join-astha-trade-content {
+  padding: 50px;
+}
+
+.join-astha-trade-content h2 {
+  font-size: 45px;
+}
+
+.join-astha-trade-content .button {
+  margin-top: 30px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 992px) {
+  .join-astha-trade {
+    padding: 120px 10px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  br {
+    display: none;
+  }
+
+  .join-astha-trade-content {
+    padding: 20px;
+  }
+
+  .join-astha-trade-content h2 {
+    font-size: 30px;
+  }
+
+  .join-astha-trade-body {
+    height: 300px;
+  }
+}

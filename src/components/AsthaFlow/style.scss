@@ -1,0 +1,73 @@
+.asthaflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+.asthaflow-header {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.asthaflow-investway {
+  margin: 30px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.asthaflow-investway p {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.asthaflow-input span {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.asthaflow-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.app-store {
+  width: 75%;
+  display: flex;
+  justify-content: right;
+  height: 40px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .asthaflow {
+    padding: 50px 0;
+  }
+  .asthaflow-input {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .asthaflow-header {
+    width: 90%;
+  }
+  .asthaflow-body {
+    flex-direction: column-reverse;
+  }
+
+  .app-store {
+    justify-content: center;
+  }
+
+  .asthaflow-investway {
+    margin: 20px 0;
+    align-items: flex-start;
+  }
+
+  .asthaflow-investway img {
+    width: 15%;
+  }
+}

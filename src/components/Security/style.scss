@@ -1,0 +1,60 @@
+.security {
+  padding: 120px 200px;
+}
+
+.security-body {
+  background: url('../../assets/images/SecurityBackground.svg');
+  background-color: rgba(129, 216, 183, 0.2);
+  background-size: cover;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.security-img {
+  position: relative;
+  bottom: 100px;
+}
+
+.security-content {
+  padding-bottom: 50px;
+}
+
+.security-content h2 {
+  font-size: 40px;
+}
+
+.security-content p {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .security-img {
+    position: relative;
+    bottom: 70px;
+  }
+
+  .security-img img {
+    width: 40%;
+  }
+
+  .security-content p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .security {
+    padding: 120px 10px !important;
+  }
+
+  .security-content h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .security-content h2 {
+    font-size: 30px;
+  }
+}
